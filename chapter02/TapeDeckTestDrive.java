@@ -1,7 +1,7 @@
-class TapeDeckTestDrive{
+public class TapeDeckTestDrive{
 	public static void main(String[] args){
 		//miss this line(object) before so cant run//
-		t.TapeDeck = new TapeDeck();
+		TapeDeck t = new TapeDeck();
 		
 		t.canRecord = true;
 		t.playTape();
@@ -14,4 +14,16 @@ class TapeDeckTestDrive{
 
 
 
+// class TapeDeck{
+	// boolean canRecord = false;
+	
+	// void playTape(){
+		// System.out.println("tape playing");
+	// }
+	
+	// void recordTape(){
+		// System.out.println("tape recording");
+		
+	// }
+// }
 

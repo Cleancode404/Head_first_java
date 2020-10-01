@@ -1,26 +1,14 @@
-// class TapeDeck{
-	// boolean canRecord = false;
+public class TapeDeck{
+	public boolean canRecord = false;
 	
-	// void playTape(){
-		// System.out.println("tape playing");
-	// }
+	void playTape(){
+		System.out.println("tape playing");
+	}
 	
-	// void recordTape(){
-		// System.out.println("tape recording");
+	void recordTape(){
+		System.out.println("tape recording");
 		
-	// }
-// }
-
-
-public class TapeDeck {
-
-    boolean canRecord = false;
-
-    void playTape() {
-        System.out.println("tape playing");
-    }
-
-    void recordTape() {
-        System.out.println("tape recording");
-    }
+	}
 }
+
+

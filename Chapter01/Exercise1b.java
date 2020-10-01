@@ -1,4 +1,4 @@
-class Foo{
+class Foo{ //add this line
 	public static void main (String[] args){
 		int x = 5;
 		while (x> 1){

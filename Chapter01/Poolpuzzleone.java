@@ -1,4 +1,4 @@
-System.out.print("a");
+
 class Shufflel{
 	public static void main (String[] args){
 		int x = 0;
@@ -29,3 +29,4 @@ class Shufflel{
 		}
 	}
 }
+
