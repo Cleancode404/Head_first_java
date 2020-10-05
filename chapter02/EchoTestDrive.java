@@ -5,9 +5,9 @@ public class EchoTestDrive{
 		int x = 0;
 		
 		while (x < 4){
-			e1.hello();
+			e1.hello(); //compiler says this is the error. Similar error
+			//exist in other instance method too
 			e1.count = e1.count + 1;
-		
 		
 			if (x == 3){
 				e2.count = e2.count + 1;

@@ -4,7 +4,7 @@ public class TapeDeckTestDrive{
 		TapeDeck t = new TapeDeck();
 		
 		t.canRecord = true;
-		t.playTape();
+		//t.playTape( );
 		
 		if (t.canRecord == true){
 			t.recordTape();
@@ -14,16 +14,4 @@ public class TapeDeckTestDrive{
 
 
 
-// class TapeDeck{
-	// boolean canRecord = false;
-	
-	// void playTape(){
-		// System.out.println("tape playing");
-	// }
-	
-	// void recordTape(){
-		// System.out.println("tape recording");
-		
-	// }
-// }
 
