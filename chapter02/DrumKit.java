@@ -1,6 +1,6 @@
 public class DrumKit{
 	
-	boolean toHat = true;
+	boolean topHat = true;
 	boolean snare = true;
 	
 	void playTopHat(){
