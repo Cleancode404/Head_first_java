@@ -13,8 +13,8 @@ public class Triangle{
 			ta[x].length = x + 4;
 			ta[x].setArea();
 			
-			System.out.print("triangle "+x+", area");
-			System.out.print(" = "+ ta[x].area);
+			System.out.println("triangle "+x+", area");
+			System.out.println(" = "+ ta[x].area);
 			x = x + 1;
 			
 		}
